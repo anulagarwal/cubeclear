@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
         //SwitchCamera(CameraType.MatchStickCamera);
         currentLevel = PlayerPrefs.GetInt("level", 1);       
         UIManager.Instance.UpdateLevel(currentLevel);
-        currentState = GameState.Main;
+        currentState = GameState.Main;        
     }
 
     #endregion
@@ -47,6 +47,10 @@ public class GameManager : MonoBehaviour
         UIManager.Instance.SwitchUIPanel(UIPanelState.Gameplay);       
         currentState = GameState.InGame;
         TinySauce.OnGameStarted("" + currentLevel);
+        foreach (MonoBehaviour m in objectsToDisable)
+        {
+            m.enabled = true;
+        }
     }
  
 

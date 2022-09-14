@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ColorManager : MonoBehaviour
 {
 
@@ -10,8 +11,16 @@ public class ColorManager : MonoBehaviour
     [Header("Attributes")]
     [SerializeField] Color cubeRed;
     [SerializeField] Color cubeBlue;
+    [SerializeField] Color cubeYellow;
+    [SerializeField] Color cubeGreen;
+
+
+
     [SerializeField] Color blockRed;
     [SerializeField] Color blockBlue;
+    [SerializeField] Color blockYellow;
+    [SerializeField] Color blockGreen;
+
     private void Awake()
     {
         Application.targetFrameRate = 100;
@@ -42,6 +51,10 @@ public class ColorManager : MonoBehaviour
 
             case ColorType.Red:
                 return blockRed;
+            case ColorType.Yellow:
+                return blockYellow;
+            case ColorType.Green:
+                return blockGreen;
             default:
                 return Color.white;               
         }
@@ -56,6 +69,11 @@ public class ColorManager : MonoBehaviour
 
             case ColorType.Red:
                 return cubeRed;
+
+            case ColorType.Yellow:
+                return cubeYellow;
+            case ColorType.Green:
+                return cubeGreen;
             default:
                 return Color.white;
         }

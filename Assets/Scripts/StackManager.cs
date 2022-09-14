@@ -12,6 +12,7 @@ public class StackManager : MonoBehaviour
     [Header("Component References")]
     [SerializeField] Transform selectedCube;
     [SerializeField] GameObject cube;
+    [SerializeField] List<Cube> cubes;
 
 
     public static StackManager Instance = null;
@@ -96,8 +97,20 @@ public class StackManager : MonoBehaviour
 
                     }
                     g.GetComponent<MeshRenderer>().material.color = ColorManager.Instance.GetColCube(t.color);
+                    cubes.Add(g.GetComponent<Cube>());
                 }
             }
+        }
+
+        Invoke("Shake", 0.05f);
+
+    }
+
+    void Shake()
+    {
+        foreach (Cube c in cubes)
+        {
+            c.PlayShake();
         }
     }
 }

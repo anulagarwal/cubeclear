@@ -23,8 +23,10 @@ public class Tile : MonoBehaviour
     private void OnMouseEnter()
     {
         //mesh.material.color = Color.red;
-        
-            GetComponentInParent<GridManager>().EnterTile(this);      
+        if (GameManager.Instance.currentState == GameState.InGame)
+        {
+            GetComponentInParent<GridManager>().EnterTile(this);
+        }
         
     }
 
@@ -35,16 +37,22 @@ public class Tile : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (color != ColorType.White && health > 0)
+        if (GameManager.Instance.currentState == GameState.InGame)
         {
-            GetComponentInParent<GridManager>().SelectTile(this);
-            StackManager.Instance.SelectCube(cube);
+            if (color != ColorType.White && health > 0)
+            {
+                GetComponentInParent<GridManager>().SelectTile(this);
+                StackManager.Instance.SelectCube(cube);
+            }
         }
     }
 
     private void OnMouseUp()
     {
-        GetComponentInParent<GridManager>().ClearSelection();
+        if (GameManager.Instance.currentState == GameState.InGame)
+        {
+            GetComponentInParent<GridManager>().ClearSelection();
+        }
     }
     void UpdateHealth(int h)
     {

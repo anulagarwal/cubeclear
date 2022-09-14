@@ -2768,8 +2768,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
-  health: 1
+  color: 0
+  health: 0
   x: 0
   y: 0
   mesh: {fileID: 749632749}
@@ -3040,7 +3040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 0
+  color: 1
   health: 1
   x: 0
   y: 0

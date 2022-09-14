@@ -1017,8 +1017,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 2
-  health: 0
+  color: 1
+  health: 1
   x: 0
   y: 0
   mesh: {fileID: 234820402}
@@ -1351,8 +1351,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 0
-  health: 4
+  color: 1
+  health: 1
   x: 0
   y: 0
   mesh: {fileID: 314197392}
@@ -2302,7 +2302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 2
+  color: 0
   health: 0
   x: 0
   y: 0
@@ -2768,7 +2768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 0
+  color: 1
   health: 1
   x: 0
   y: 0
@@ -3040,8 +3040,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 2
-  health: 0
+  color: 0
+  health: 1
   x: 0
   y: 0
   mesh: {fileID: 783457912}
@@ -3159,8 +3159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 2
-  health: 0
+  color: 0
+  health: 1
   x: 0
   y: 0
   mesh: {fileID: 874625850}
@@ -3864,8 +3864,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 2
-  health: 0
+  color: 0
+  health: 1
   x: 0
   y: 0
   mesh: {fileID: 1110106354}
@@ -5753,8 +5753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 2
-  health: 0
+  color: 0
+  health: 1
   x: 0
   y: 0
   mesh: {fileID: 1496093653}
@@ -8350,8 +8350,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 2
-  health: 0
+  color: 1
+  health: 1
   x: 0
   y: 0
   mesh: {fileID: 2092252468}
@@ -8452,7 +8452,7 @@ MonoBehaviour:
   speed: 0
   previousTile: {fileID: 0}
   red: 1
-  blue: 0
+  blue: 1
   green: 0
   yellow: 0
   baseOffset: {x: 0, y: 0}

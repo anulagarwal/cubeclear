@@ -37,7 +37,8 @@ public enum ColorType
     Red,
     Blue,
     White,
-    Green
+    Green,
+    Yellow
 }
 public enum TileState
 {

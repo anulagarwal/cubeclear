@@ -109,6 +109,18 @@ public class GridManager : MonoBehaviour
                     StackManager.Instance.SelectCube(t.cube);
 
                 }
+                int total=0;
+                foreach(Tile t1 in tiles)
+                {
+                    if(t1.color == t.color)
+                    {
+                        total += t1.health;
+                    }
+                }
+                if(t.cube.childCount+1== total)
+                {
+                    //t.cube.GetComponent<Cube>().PlayShake();
+                }
                 CheckWin();
             }
             if(t.color == ColorType.White && previousTile.health>1)
@@ -148,10 +160,17 @@ public class GridManager : MonoBehaviour
                 case ColorType.Blue:
                     b++;
                     break;
+
+                case ColorType.Yellow:
+                    y++;
+                    break;
+                case ColorType.Green:
+                    g++;
+                    break;
             }
             
         }
-        if (r == red && b == blue)
+        if (r == red && b == blue && y== yellow && g == green)
         {
             GameManager.Instance.WinLevel();
         }

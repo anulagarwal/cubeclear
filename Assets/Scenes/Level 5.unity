@@ -865,7 +865,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &223413184
 Transform:
   m_ObjectHideFlags: 0
@@ -1352,7 +1352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 0
-  health: 2
+  health: 4
   x: 0
   y: 0
   mesh: {fileID: 314197392}
@@ -2302,8 +2302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 0
-  health: 1
+  color: 2
+  health: 0
   x: 0
   y: 0
   mesh: {fileID: 638065032}
@@ -2510,7 +2510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &718552223
 Transform:
   m_ObjectHideFlags: 0
@@ -3040,8 +3040,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 0
-  health: 1
+  color: 2
+  health: 0
   x: 0
   y: 0
   mesh: {fileID: 783457912}
@@ -3159,8 +3159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
-  health: 2
+  color: 2
+  health: 0
   x: 0
   y: 0
   mesh: {fileID: 874625850}
@@ -3599,7 +3599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1081427833
 Transform:
   m_ObjectHideFlags: 0
@@ -3864,8 +3864,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 0
-  health: 1
+  color: 2
+  health: 0
   x: 0
   y: 0
   mesh: {fileID: 1110106354}
@@ -5753,8 +5753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
-  health: 3
+  color: 2
+  health: 0
   x: 0
   y: 0
   mesh: {fileID: 1496093653}
@@ -7111,7 +7111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1767249517
 Transform:
   m_ObjectHideFlags: 0
@@ -8350,8 +8350,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62292b71342aa44e1b559335f36c8383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
-  health: 1
+  color: 2
+  health: 0
   x: 0
   y: 0
   mesh: {fileID: 2092252468}
@@ -8452,7 +8452,7 @@ MonoBehaviour:
   speed: 0
   previousTile: {fileID: 0}
   red: 1
-  blue: 1
+  blue: 0
   green: 0
   yellow: 0
   baseOffset: {x: 0, y: 0}
@@ -8685,6 +8685,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1369014027, guid: f5db4eb6cdc624983bc0f79d85c6731d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1369014027, guid: f5db4eb6cdc624983bc0f79d85c6731d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 1369014027, guid: f5db4eb6cdc624983bc0f79d85c6731d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.76
+      objectReference: {fileID: 0}
     - target: {fileID: 3267584594690214022, guid: f5db4eb6cdc624983bc0f79d85c6731d, type: 3}
       propertyPath: m_RootOrder
       value: 1

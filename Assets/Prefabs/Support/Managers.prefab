@@ -310,8 +310,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeRed: {r: 0.7882353, g: 0.09411765, b: 0.2901961, a: 1}
   cubeBlue: {r: 0.36862746, g: 0.3764706, b: 0.80784315, a: 1}
+  cubeYellow: {r: 1, g: 0.7647059, b: 0, a: 0}
+  cubeGreen: {r: 0.21960784, g: 0.6901961, b: 0, a: 0}
   blockRed: {r: 1, g: 0.56078434, b: 0.6392157, a: 0}
   blockBlue: {r: 0.3254902, g: 0.5647059, b: 0.8509804, a: 0}
+  blockYellow: {r: 1, g: 0.7176471, b: 0, a: 0}
+  blockGreen: {r: 0.4392157, g: 0.8784314, b: 0, a: 0}
 --- !u!114 &1241179750
 MonoBehaviour:
   m_ObjectHideFlags: 0
